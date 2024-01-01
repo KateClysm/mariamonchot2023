@@ -1,0 +1,20 @@
+.section-all-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 3.9rem);
+    margin-top: 3.9rem;
+   
+    h2{
+        margin-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+}

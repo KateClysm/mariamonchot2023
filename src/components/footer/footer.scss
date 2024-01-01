@@ -1,0 +1,15 @@
+footer{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 2rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+
+   .quote{
+    font-family: 'Rajdhani', sans-serif;
+   
+   }
+}

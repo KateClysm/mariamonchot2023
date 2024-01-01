@@ -1,0 +1,52 @@
+.profile-flip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+    position: relative;
+    width: 18rem;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+
+    &:hover{
+        cursor: pointer;
+    }
+    
+    img{
+        height: 17.5rem;
+        position: absolute;
+        backface-visibility: hidden;
+        transition: 1s;
+
+        &:nth-child(2){
+            transform: rotateY(180deg);
+        }
+
+        
+    }
+
+    
+
+    &:hover img:nth-child(2){
+        transform: rotateY(0deg);
+    }
+
+    &:hover img:nth-child(1){
+        transform: rotateY(-180deg);
+    }
+}
+
+.rotate{
+    img{
+        &:nth-child(2){
+            transform: rotateY(180deg);
+        }
+    }
+    img:nth-child(2){
+        transform: rotateY(0deg);
+    }
+
+    img:nth-child(1){
+        transform: rotateY(-180deg);
+    }
+}

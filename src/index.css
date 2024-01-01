@@ -1,0 +1,55 @@
+:root {
+  --black-color: #080808;
+  --white-color: #ffffff;
+  --grey-color: #777777;
+  --lightgrey-color: #bebebe;
+  
+  --font-size-small-mobile: 10px;
+  --font-size-mobile: 11px;
+  --font-size-tablet: 12px;
+  --font-size-laptop: 14px;
+  --font-size-desktop: 16px;
+  --font-size-large-desktop: 18px;
+  --font-size-huge-desktop: 26px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', sans-serif;
+  letter-spacing: 0.1rem;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--white-color);
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+h2{font-size: 2.4rem;}
+p, li{font-size: 1.2rem;}
+a {text-decoration: none;}
+h1, h2, h3{
+  font-family: 'Exo 2', sans-serif;
+}
+html {font-size: var(--font-size-small-mobile);}
+@media (min-width: 425px) { html {font-size: var(--font-size-mobile);} }
+@media (min-width: 600px) { html {font-size: var(--font-size-tablet);} }
+@media (min-width: 1240px) { html {font-size: var(--font-size-laptop);} }
+@media (min-width: 1400px) { html {font-size: var(--font-size-desktop);} }
+@media (min-width: 1900px) { html {font-size: var(--font-size-large-desktop);} }
+@media (min-width: 2500px) { html {font-size: var(--font-size-huge-desktop);} }
+
+.px5p{padding: 0 5%;}
+

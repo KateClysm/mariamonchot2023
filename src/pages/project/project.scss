@@ -1,0 +1,188 @@
+.section-project{
+    margin-top: 3.9rem;
+    width: 100%;
+    min-height: calc(100vh - 3.9rem);
+    padding: 0 5% 5rem 5%;
+    h2{
+        padding: 4rem 0;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 4rem;
+        .principal-view, .secondary-view{
+            width: 100%;
+            height: auto;
+            border-radius: 1rem;
+            // box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+            box-shadow: rgb(38, 57, 77) 0px 1rem 3rem -1rem;
+        }
+
+        .secondary-description{
+            h3{
+                padding-bottom: 2rem;
+                font-size: 1.8rem;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                row-gap: 1rem;
+                list-style-type: circle;
+                
+            }
+        }
+
+        .container-img{
+            padding: 2.5rem;
+        }
+
+        .container-mobile{
+            .mobile-view{
+                width: 50%;
+                height: auto;
+                box-shadow: rgb(38, 57, 77) 0px 1rem 3rem -1rem;
+                border-radius: 1rem;
+            } 
+        }
+
+        .container-rol{
+            .text{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                padding: 0 1rem;
+                .date{
+                    font-size: 3rem;
+                    text-transform: uppercase;
+                    font-family: 'Rajdhani', sans-serif;
+                    padding-bottom: 1rem;
+                }
+            }
+
+            .links{
+                h3{
+                    font-size: 1.5rem;
+                    padding: 1.5rem 0;
+                }
+                .icons{
+                    display: flex;
+                    justify-content: center;
+                    column-gap: 2rem;
+                    padding: 1rem;
+                    .links-icon{
+                        font-size: 2rem;
+                        color: var(--black-color);
+    
+                        cursor: pointer;
+                        position: relative;
+    
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            bottom: -0.2rem;
+                            left: 0;
+                            width: 0;
+                            height: 2px; 
+                            background-color: var(--black-color); 
+                            transition: width 0.3s ease-in-out; 
+                        }
+                
+                        &:hover::after {
+                            width: 100%;
+                        }
+                    }
+                }
+    
+            }
+        }
+
+        .technologies-used{
+            h3{
+                padding-bottom: 3rem;
+                font-size: 1.8rem;
+            }
+            .container-technologies{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                padding: 1rem 0;
+                .icon-container{
+                    font-size: 3rem;
+                }
+            }
+        }
+
+       
+    }
+
+}
+
+@media (min-width: 700px) {
+
+    .section-project{
+
+        h2{
+            padding: 4rem 0;
+        }
+
+        .container{
+            display: grid;
+            grid-template-areas: 
+            "principal_view description"
+            "secondary_description secondary_view "
+            "mobile_rol mobile_rol"
+            "technologies technologies";
+            align-items: center;
+            justify-content: center;
+            column-gap: 2rem;
+            row-gap: 7rem;
+
+
+            .principal-view{grid-area: principal_view;}
+            .description{grid-area: description;}
+            .secondary-view{grid-area: secondary_description;}
+            .secondary-view{grid-area: secondary_view;}
+            .container-mobile-rol{grid-area: mobile_rol;}
+            .technologies-used{grid-area: technologies;}
+
+            .description{width: 80%;}
+            .container-mobile-rol{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-self: center;
+                column-gap: 2rem;
+                width: 70%;
+
+                .container-mobile{
+                    .mobile-view{
+                        width: auto;
+                        height: 85vh;
+                    }
+                }  
+    
+                .container-rol{
+                    column-width: 2fr;
+                    grid-row: 2fr;
+                    .text{
+                        height: 85vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        padding: 0;
+                        
+                    }
+                }
+            }
+
+            .technologies-used{
+                .container-technologies{
+                    padding: 1.5rem 0;
+                }
+            }
+        }
+   }
+}

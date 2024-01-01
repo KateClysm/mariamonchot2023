@@ -1,0 +1,55 @@
+.section-contact{
+   .wave-contact{
+    margin-bottom: -1rem;
+   }
+
+    .contact{
+        min-height: 45vh;
+        background-color: var(--black-color);
+        color: var(--white-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            padding-bottom: 4rem;
+        }
+        .content{     
+            width: 50%;
+            align-self: center;
+            p{
+                padding-bottom: 1.5rem;
+                
+            }
+        
+            .contact-icons{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                column-gap: 1rem;
+
+                .contact-icon{
+                    cursor: pointer;
+                    position: relative;
+                    color: var(--white-color);
+                    font-size: 2rem;
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -0.2rem;
+                        left: 0;
+                        width: 0;
+                        height: 2px; 
+                        background-color: var(--white-color); 
+                        transition: width 0.3s ease-in-out; 
+                    }
+            
+                    &:hover::after {
+                        width: 100%;
+                    }
+                }
+            }
+
+            
+        }
+    }
+}
