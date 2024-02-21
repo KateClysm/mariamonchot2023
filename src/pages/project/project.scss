@@ -40,7 +40,7 @@
         .container-mobile{
             .mobile-view{
                 width: 50%;
-                height: auto;
+                max-height: 70vh;
                 box-shadow: rgb(38, 57, 77) 0px 1rem 3rem -1rem;
                 border-radius: 1rem;
             } 
