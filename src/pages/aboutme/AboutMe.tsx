@@ -1,6 +1,6 @@
 import './aboutme.scss';
 import { FaFileAlt, FaArrowDown } from "react-icons/fa";
-import MariaMonchotPDF from '../../assets/NPNCEnMariaMonchot.pdf';
+import MariaMonchotPDF from '../../assets/MariaMonchot.pdf';
 import ProfilePhoto from '../../components/profile-photo/ProfilePhoto';
 import hands from '../../assets/hands.png';
 import computer from '../../assets/computer.png';
@@ -77,13 +77,7 @@ const AboutMe: React.FC = () => {
            </RevealUp>
            <RevealUp>
               <p>
-              As a FullStack Developer and Computer Science student, I find a balance between
-              technical skills and interpersonal competencies. My experience as a project organizer
-              has enriched my perspective on teamwork and communication. However, what truly
-              defines me is my strong commitment to self-directed study. I am seeking a position
-              that not only values these skills but also provides me with the opportunity to continue
-              learning and growing in a dynamic and challenging environment.
-
+              Currently pursuing a Bachelor's degree in Data Science, with a solid foundation in web development and programming gained through intensive training as a Full Stack Developer. I have hands-on experience with SQL, version control tools like Git, and I’m currently focused on strengthening my skills in Python for data analysis and processing. I'm passionate about applying my technical background to data-driven challenges, while also remaining open to backend development opportunities. I’m seeking a trainee position that allows me to keep growing professionally in either area.
               </p>
            </RevealUp>
          </div>

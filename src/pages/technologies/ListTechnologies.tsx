@@ -3,6 +3,7 @@ import { SiTypescript, SiJira, SiMysql  } from "react-icons/si";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 import { GrReactjs } from "react-icons/gr";
 import { BiLogoSpringBoot } from "react-icons/bi";
+import { BsFiletypeSql } from "react-icons/bs";
 
 export const technologies = [
   { icon: <GrReactjs />, name: 'React.js' },
@@ -18,6 +19,7 @@ export const technologies = [
   { icon: <FaBootstrap />, name: 'Bootstrap' },
   { icon: <FaAngular />, name: 'Angular' },
   { icon: <FaPython />, name: 'Python' },
+  { icon: <BsFiletypeSql />, name: 'SQL'},
   { icon: <FaJava />, name: 'Java' },
   { icon: <FaNpm />, name: 'npm' },
   { icon: <FaFigma />, name: 'Figma' },

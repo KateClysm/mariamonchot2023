@@ -41,11 +41,32 @@ const Education: React.FC = () => {
                 </div>
 
                 <ul className="items">
-                  <li>Analista Programador Universitario UNLP, 2022-Actualidad</li>
+                  <li>Bachelor’s Degree in Data Science, 2025–Present</li>
+                  <li>Bachelor’s Degree in Information Systems, 2024–2025</li>
                   <li>Full Stack Web Developer MERN, Empujar Coders, 2023</li>
                   <li>Plan Programar Argentina, 2022</li>
                 </ul>
               </div>
+          </div>
+          </RevealUp>
+
+          <RevealUp>
+          <div className="card">
+            <div className="text-box">
+              <div className="education-title">
+                <FaLaptopCode className="education-icon" />
+                <h3>Programming Certificates</h3>
+              </div>
+              <ul className="items">
+                <li>JavaScript Essentials, Cisco, 2023</li>
+                <li>Introduction to Cibersecurity, Cisco, 2023</li>
+                <li>Introduction to Cibersecurity, BASE4, 2024</li>
+                <li>Seminar on Intelligent Data Analysis and Visualization Applied to Criminal Investigation, UNPSJB, 2024</li>
+                <li>Introduction to Programming with Python, Santander Open Academy, 2025</li>
+                <li>Introduction to Data Science, Santander Open Academy & IE University, 2025</li>
+                <li>Scientific Computing with Python, FreeCodeCamp, 2025</li>
+              </ul>
+            </div>
           </div>
           </RevealUp>
 
@@ -66,21 +87,6 @@ const Education: React.FC = () => {
                   2023
                 </li>
                 <li>Programming oriented English (level B1.2), CUI UBA, 2022</li>
-              </ul>
-            </div>
-          </div>
-          </RevealUp>
-
-          <RevealUp>
-          <div className="card">
-            <div className="text-box">
-              <div className="education-title">
-                <FaLaptopCode className="education-icon" />
-                <h3>Programming Certificates</h3>
-              </div>
-              <ul className="items">
-                <li>JavaScript Essentials, Cisco, 2023</li>
-                <li>Introduction to Cibersecurity, Cisco, 2023</li>
               </ul>
             </div>
           </div>
