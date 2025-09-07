@@ -3,6 +3,8 @@
 Este es mi portfolio personal desarrollado en 2023, diseñado desde cero en **Figma** y codificado completamente en **Vite + React + TypeScript**.  
 El objetivo fue crear un espacio moderno, simple y visual donde centralizar mis proyectos y mi experiencia.  
 
+Visita este portfolio en línea: [Portfolio 2023](https://kateclysm.github.io/mariamonchot2023/)
+
 ---
 
 <table>
