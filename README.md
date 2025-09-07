@@ -7,11 +7,14 @@ El objetivo fue crear un espacio moderno, simple y visual donde centralizar mis 
 
 ## 📸 Vistas del Portfolio
 
-### 🖥️ Desktop
+### 🖥️ Principal Page
 ![Vista Desktop](assets/screenshots/)
 
-### 📱 Mobile
-![Vista Mobile](assets/screenshots/)
+### 🖥️ All Projects
+![Vista Desktop](assets/screenshots/)
+
+### 🖥️ Project
+![Vista Desktop](assets/screenshots/)
 
 > ✨ Diseño **responsive**, adaptado tanto a dispositivos móviles como de escritorio.
 
