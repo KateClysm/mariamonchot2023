@@ -21,17 +21,17 @@ const Nav2: React.FC = () => {
   const handleScrollOrRedirection = (area: string) => {
     const currentPath = window.location.pathname;
 
-    if (area === "/mariamonchot/" && currentPath === "/mariamonchot/") {
+    if (area === "/mariamonchot2023/" && currentPath === "/mariamonchot2023/") {
       window.scrollTo({ top: 0, behavior: "smooth" });
-    } else if (area === "/mariamonchot/" && currentPath !== "/mariamonchot/") {
-      navigate("/mariamonchot/");
-    } else if (area.startsWith("/") && currentPath === "/mariamonchot/") {
+    } else if (area === "/mariamonchot2023/" && currentPath !== "/mariamonchot2023/") {
+      navigate("/mariamonchot2023/");
+    } else if (area.startsWith("/") && currentPath === "/mariamonchot2023/") {
       const element = document.getElementById(area.substring(1));
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
       }
     } else {
-      navigate("/mariamonchot/");
+      navigate("/mariamonchot2023/");
       setTimeout(() => {
         const element = document.getElementById(area.substring(1));
         if (element) {
@@ -113,12 +113,12 @@ const Nav2: React.FC = () => {
 
       <div className="left-nav">
         <a
-          href="/mariamonchot/"
+          href="/mariamonchot2023/"
           className="home"
           onClick={(event) => {
             event.preventDefault();
             handleCloseMenu();
-            handleNavLinkClick("/mariamonchot/");
+            handleNavLinkClick("/mariamonchot2023/");
           }}
         >
           <RiHomeHeartLine className="home-icon" />

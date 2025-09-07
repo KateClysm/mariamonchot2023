@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
 
 
   const handleShowMoreClick = (id: number) => {
-    navigate("/mariamonchot/project", { state: { id } }); 
+    navigate("/mariamonchot2023/project", { state: { id } }); 
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
 
 
   const handleShowAllProjects = () => {
-    navigate("/mariamonchot/allprojects");
+    navigate("/mariamonchot2023/allprojects");
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
   

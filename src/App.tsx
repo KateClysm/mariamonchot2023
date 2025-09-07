@@ -64,11 +64,11 @@ const App: React.FC = () => {
 
   const router = createBrowserRouter([
     {
-      path: '/mariamonchot/', 
+      path: '/mariamonchot2023/', 
       element: <Layout />,
       children: [
         {
-          path: '/mariamonchot/',
+          path: '/mariamonchot2023/',
           element: 
             <>
               <AboutMe/>
@@ -81,11 +81,11 @@ const App: React.FC = () => {
             </>
         },
         {
-          path: '/mariamonchot/project' ,
+          path: '/mariamonchot2023/project' ,
           element: <Project />
         },
         {
-          path: '/mariamonchot/allprojects',
+          path: '/mariamonchot2023/allprojects',
           element: <AllProjects/>
         }
       ]

@@ -8,13 +8,13 @@ El objetivo fue crear un espacio moderno, simple y visual donde centralizar mis 
 ## 📸 Vistas del Portfolio
 
 ### 🖥️ Principal Page
-![Principal Page](assets/screenshots/PrincipalPage.png)
+![Principal Page](src/assets/screenshots/PrincipalPage.png)
 
 ### 🖥️ All Projects
-![All Projects](assets/screenshots/AllProjectsPage.png)
+![All Projects](src/assets/screenshots/AllProjectsPage.png)
 
 ### 🖥️ Project
-![Project](assets/screenshots/ProjectPage.png)
+![Project](src/assets/screenshots/ProjectPage.png)
 
 > ✨ Diseño **responsive**, adaptado tanto a dispositivos móviles como de escritorio.
 
