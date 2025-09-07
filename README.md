@@ -5,16 +5,22 @@ El objetivo fue crear un espacio moderno, simple y visual donde centralizar mis 
 
 ---
 
-## 📸 Vistas del Portfolio
-
-### 🖥️ Principal Page
-![Principal Page](src/assets/screenshots/PrincipalPage.png)
-
-### 🖥️ All Projects
-![All Projects](src/assets/screenshots/AllProjectsPage.png)
-
-### 🖥️ Project
-![Project](src/assets/screenshots/ProjectPage.png)
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <p>🖥️ Principal Page</p>
+      <img src="src/assets/screenshots/PrincipalPage.png" width="250" />
+    </td>
+    <td align="center" valign="top" width="33%">
+      <p>🖥️ All Projects</p>
+      <img src="src/assets/screenshots/AllProjectsPage.png" width="200" />
+    </td>
+    <td align="center" valign="top" width="33%">
+      <p>🖥️ Project</p>
+      <img src="src/assets/screenshots/ProjectPage.png" width="250" />
+    </td>
+  </tr>
+</table>
 
 > ✨ Diseño **responsive**, adaptado tanto a dispositivos móviles como de escritorio.
 
