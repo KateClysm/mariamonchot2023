@@ -1,17 +1,31 @@
-# Personal Portfolio
+# 🌐 Portfolio 2023 – Maria Monchot
 
-Explore my diverse collection of projects showcasing my expertise and creativity as a developer. With a foundation built on React, TypeScript, and Sass, this portfolio reflects my proficiency in crafting dynamic and responsive web experiences.
+Este es mi portfolio personal desarrollado en 2023, diseñado desde cero en **Figma** y codificado completamente en **Vite + React + TypeScript**.  
+El objetivo fue crear un espacio moderno, simple y visual donde centralizar mis proyectos y mi experiencia.  
 
-## Features
+---
 
-- **React**: The foundation of this portfolio is built using React, providing a modular structure and efficient performance.
-- **TypeScript**: I've employed TypeScript to add static typing to my codebase, enhancing its robustness and readability.
-- **Sass**: Sass has been utilized to improve style organization and reusability, enabling the creation of dynamic and visually engaging designs.
+## 📸 Vistas del Portfolio
 
-## Feel free to download this portfolio for inspiration or to understand its structure, but please avoid directly copying it!
+### 🖥️ Principal Page
+![Principal Page](assets/screenshots/PrincipalPage.png)
 
-1. Clone this repository: `git clone https://github.com/KateClysm/mariamonchot.git`
-2. Install dependencies: `npm install`
-3. Start the application: `npm start`
+### 🖥️ All Projects
+![All Projects](assets/screenshots/AllProjectsPage.png)
 
-Feel free to explore my work, and don't hesitate to reach out if you're interested in collaboration or have any questions!
+### 🖥️ Project
+![Project](assets/screenshots/ProjectPage.png)
+
+> ✨ Diseño **responsive**, adaptado tanto a dispositivos móviles como de escritorio.
+
+---
+
+## ⚙️ Tecnologías utilizadas
+
+- **React + Vite**
+- **TypeScript**
+- **Sass (SCSS)**
+- **Framer Motion** (animaciones)
+- **Figma** (diseño original)
+
+---
